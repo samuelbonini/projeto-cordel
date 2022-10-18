@@ -2,11 +2,15 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
+
 
 :root {
     --fonte1: Verdana, Geneva, Tahoma, sans-serif;
     --fonte2: 'Passion One', cursive;
     --fonte3: 'Sriracha', cursive; 
+    --fonte4: 'Cabin', cursive
 }
 
 }
@@ -30,6 +34,7 @@ header {
     text-align: center;
 
 }
+
 
 header > h1 {
     padding-top: 50px;
@@ -58,7 +63,7 @@ section {
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
-    font-family: var(--fonte3);
+    font-family: var(--fonte4);
     font-size: 3.5vw;
 }
 
@@ -80,7 +85,7 @@ section.imagem {
 }
 
 section#img01 {
-    background-image: url(../imagens/background001.jpg);
+    background-image: url(../imagens/smaug.jpg);
     background-position: right center;
     
 }
